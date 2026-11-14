@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Word reports & local generation artifacts (kept out of code repo)
+*.docx
+extracted_media/
+*.py
+client/
